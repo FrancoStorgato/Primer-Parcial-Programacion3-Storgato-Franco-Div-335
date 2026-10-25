@@ -1,0 +1,282 @@
+
+body{
+    background-color: rgb(131, 110, 110);
+    margin: 30px;
+
+    font-family: monospace;
+}
+
+/* Estilado header */
+
+.main-header{
+    background-color: rgba(0, 0, 0, 0.86);
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Estilado Logo */
+
+.div-header{
+    display: flex;
+    width: 25px;
+    width: 170.34px;
+    justify-content: center;
+    
+}
+
+
+#imagen-logo{
+    margin: 15px;
+    width: 90px;
+}
+
+/* Estilado Navs */
+
+.links-header{
+
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.517);
+    
+}
+
+/* Estilado Busqueda */
+
+.barraBusqueda{
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.561);
+    font-weight: bold;
+}
+
+.search-button{
+    background-color:rgba(245, 245, 245, 0.561) ;
+    border: transparent;
+    border-radius: 10px;
+    margin: 3px;
+
+}
+
+.lupaBusqueda{
+    width: 10px;
+}
+
+/* estilado del campo main */
+
+.videoRelleno{
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+.info-relleno{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3-relleno{
+    display: flex;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+}
+
+.autos-section{
+    background-image: url("assets/calle.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(38,38,38);
+    border: 2px whitesmoke solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Estilado de contenedor principal de vehiculos */
+
+.div-main{
+    /* background-color:rgba(207, 209, 215, 0.457);
+    border: 1px whitesmoke solid; */
+    border-radius: 20px;
+    margin: 20px;
+    width: 35%;
+}
+
+/* Estilado De contenedores de vehiculos individuales */
+
+.div-auto{
+    margin: 35px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.376);
+}
+
+.div-imagenAuto{
+    display: flex;
+    justify-content: center;
+    border-top: dotted 5px black;
+    margin: 10px;
+}
+
+.imagenes-autos{
+    display: flex;
+    width: 100%;
+}
+
+.div-infoAuto{
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    border-top: dotted black 5px;
+    border-bottom: dotted black 5px;
+}
+
+.marca-auto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-auto{
+    display: flex;
+    height: 100%;
+}
+
+
+
+/* ventana flotante Busqueda*/
+
+.ventFlotante{
+    background: rgba(0, 0, 0, 0.917);
+    color: whitesmoke;
+    width: 70%;
+    min-height: fit-content;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    position: absolute;
+    left: 80px;
+    top: 120px;
+    display: none;
+}
+
+.cerrar{
+    background: none;
+    border: none;
+}
+
+#cerrar{
+    position: absolute;
+    right: 2px;
+    top: 5px;
+}
+
+.div-autoBusqueda{
+    display: flex;
+    text-align: center;
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px whitesmoke solid;
+    border-radius: 25px;
+    background-color: black;
+}
+
+.div-imagenAutoBusqueda{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.imagenes-autosBusqueda{
+    display: flex;
+    width: 100%;
+}
+
+.div-infoAutoBusqueda{
+    margin: 10px;
+}
+
+/* ventana flotante sobre nosotros */
+
+.ventSobreNosotros{
+    background: rgba(0, 0, 0, 0.917);
+    color: whitesmoke;
+    width: 30%;
+    min-height: fit-content;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    position: absolute;
+    right: 50px;
+    min-height: fit-content;
+    top: 120px;
+    display: none;
+}
+
+.cerrarSobreNosotros{
+    background: none;
+    border: none;
+}
+
+#cerrarSobreNosotros{
+    position: absolute;
+    left: 1px;
+    top: 5px;
+}
+
+.text-sobreNosotros{
+    justify-content: center;
+    margin: 15px;
+    text-align: center;
+
+}
+
+
+/* Estilado footer */
+
+.footer{
+    margin-top: 15px;
+}
+
+.div-footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.86);
+    color: whitesmoke
+    
+
+}
+
+.div-footer h3{
+    display: flex;
+    font-size: 20px;
+}
+
+.div-footer a{
+    display: flex;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 19px;
+
+}

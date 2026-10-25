@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Supercars Olivos: una selección curada de autos nobles, deportivos y superdeportivos." />
+    
+    <title>Supercars Olivos</title>
+
+    <!-- Importacion archivo Styles.css -->
+     <link rel="stylesheet" href="index.css">
+
+    <!-- Importacion archivo index.js -->
+    <script defer src="index.js"></script>
+    
+    <!-- Importación de fuentes Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class="ventFlotante" id="ventFlotante">
+        <div id="cerrar">
+            <button class="cerrar" id="cerrar">
+
+                <img src="assets/eliminar.png" alt="">
+
+            </button>
+        </div>
+
+        <div class="div-busqueda" id="div-autoBusqueda">
+
+
+
+        </div>
+    </div>
+
+    <div class="ventSobreNosotros" id="ventSobreNosotros">
+        <div id="cerrarSobreNosotros">
+            <button class="cerrarSobreNosotros" id="cerrarSobreNosotros">
+
+                <img src="assets/eliminar.png" alt="">
+
+            </button>
+        </div>
+
+        <div class="text-sobreNosotros">
+            <h3>
+                Franco Storgato
+            </h3>
+
+            <br>
+                Este es mi primer parcial en programacion 3!!!</br>
+                Elegi este lenguaje de diseño inspirandome en paginas como: Bentley, Audi, Bmw, Porsche,
+                entre otras.
+            </p>
+
+            <p>
+                @2026 Todos los derechos reservado a mi persona. Besis <3
+            </p>
+        </div>
+
+        <div class="div-sobreNosotros" id="div-sobreNosotros">
+
+
+
+        </div>
+    </div>
+
+
+    <header class="main-header">
+
+        <div class="div-header">
+                <input placeholder="Busque un modelo" class="barraBusqueda" id="barraBusqueda" name="barraBusqueda" type="text"> <!-- Barra de busqueda de modelos -->
+                <button class="search-button" id="search-button">
+                    <img class="lupaBusqueda" src="assets/lupa.png" alt="lupa">
+                </button>
+        </div> 
+
+
+        <div class="div-header" id="div-logo">
+            <img class="imagenes" id="imagen-logo" src="assets/icono.png" alt="logo-pagina"> <!-- Logo principal del header -->
+        </div>
+
+        <div class="div-header" id="div-nav">
+            <a class="links-header" id="link-nosotros" href="javascript:abrirSobreNosotros()">Sobre Nosotros</a> <!-- Ubicacion de enlace a pagina de informacion de la concesionaria -->
+
+        </div>
+
+    </header>
+
+    <main class="main" id="main">
+
+        <section class="resBusqueda-section">
+            
+        </section>
+
+        <section class="videoRellenos">
+            <video class="videoRelleno" src="assets/m4vid.mp4" autoplay muted loop></video>
+            <div class="info-relleno">
+                <div class="div-texto-relleno">
+                    <div class="h3-relleno">
+                        <h3>
+                            Supercars Olivos
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="autos-section">
+            <div class="div-main" id="div-nobles"> <!-- Div de autos nobles y deportivos -->
+            
+            </div>
+
+            <div class="div-main" id="div-premiuns"> <!-- Div de autos premiun y superdeportivos-->
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="div-footer">
+            <h3>
+                Encuentranos en: <a href="https://maps.app.goo.gl/1Qftys6SQdLdSSod7">Av. Maipu Esq. Mariano Pelliza</a>
+            </h3>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
